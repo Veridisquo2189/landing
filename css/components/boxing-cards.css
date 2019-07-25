@@ -1,0 +1,25 @@
+   .boxing-cards {
+       display: flex;
+       justify-content: space-around;
+       margin-bottom: 30px;
+   }
+
+
+   .boxing-card {
+       width: 200px;
+       border-radius: 3px;
+       box-shadow: 0 0 5px rgb(230, 230, 230);
+       text-shadow: 0 0 5px rgb(230, 230, 230);
+       text-align: center;
+       padding: 20px;
+       border: 2px solid rgb(230, 230, 230);
+       opacity: 1;
+   }
+
+   .boxing-card:hover {
+    opacity: 0.7;
+   }
+
+   .boxing-card img {
+    height: 100px;
+   }
